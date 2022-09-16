@@ -1,0 +1,25 @@
+.校慶 *{
+    display:flex;
+    width:auto;
+    justify-content: center;
+}
+
+.gamelist{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-content: center;
+    text-align:center
+}
+
+
+[href^="https"],[href^=".."]{
+    background-color: rgb(40, 154, 40);
+    text-decoration:none;
+    padding:5px;
+    border-radius:10px;
+    color: aliceblue;
+}
+[href^="https"]:hover,[href^=".."]:hover{
+    background-color: green;
+}
