@@ -1,8 +1,18 @@
+@keyframes touch {
+    100% {bottom:15px;}
+}
+
 .校慶 *{
     display:flex;
     width:auto;
     justify-content: center;
     color: aliceblue;
+}
+
+.gamelist [src]:hover{
+    animation-name:touch;
+    animation-duration:0.5s;
+    position: relative;
 }
 
 .gamelist{
@@ -12,7 +22,7 @@
     align-content: center;
     text-align:center;
     color: aliceblue;
-    
+    position: relative;
 }
 
 body{
@@ -40,5 +50,6 @@ body{
     display:flex;
     justify-content:center;
 }
+
 
 
