@@ -11,9 +11,7 @@
 
 .gamelist [src]:hover{
     transform: scale(1.1);
-    animation-name:touch;
-    animation-duration:1s;
-    position: relative;
+    transition:1s;
 }
 
 .gamelist{
