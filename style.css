@@ -28,7 +28,17 @@ body{
     padding:5px;
     border-radius:10px;
     color: aliceblue;
+    display: flex;
+    text-align:center;
+    justify-content: center;
 }
 [href^="https"]:hover,[href^=".."]:hover{
     background-color: green;
 }
+
+.back{
+    display:flex;
+    justify-content:center;
+}
+
+
