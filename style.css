@@ -12,6 +12,7 @@
     align-content: center;
     text-align:center;
     color: aliceblue;
+    
 }
 
 body{
@@ -21,7 +22,7 @@ body{
     background-attachment:fixed;
 }
 
-[href^="https"],[href^=".."]{
+[href^="https"],[href^=".."],.gamelist p{
     background-color: rgb(40, 154, 40);
     text-decoration:none;
     padding:5px;
