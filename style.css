@@ -2,6 +2,7 @@
     display:flex;
     width:auto;
     justify-content: center;
+    color: aliceblue;
 }
 
 .gamelist{
@@ -9,9 +10,16 @@
     flex-wrap: wrap;
     flex-direction:column;
     align-content: center;
-    text-align:center
+    text-align:center;
+    color: aliceblue;
 }
 
+body{
+    background-image:url(http://castle.womany.net/images/articles/21882/womany_wen_zhang_1200x630_cover_photo__te_se_tu_mo_ban_2019_11_12T135105_978_1573538026-26860-0055-4115.png);
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+    background-attachment:fixed;
+}
 
 [href^="https"],[href^=".."]{
     background-color: rgb(40, 154, 40);
