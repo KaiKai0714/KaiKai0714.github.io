@@ -1,5 +1,7 @@
 @keyframes touch {
-    100% {}
+    0% {scale:1;}
+    50% {scale:0.7;}
+    100% {scale:1;}
 }
 
 .校慶 *{
@@ -42,7 +44,6 @@ body{
     padding:5px;
     border-radius:10px;
     color: aliceblue;
-    display: flex;
     text-align:center;
     justify-content: center;
 }
@@ -53,6 +54,53 @@ body{
 .back{
     display:flex;
     justify-content:center;
+}
+
+.kai,.T{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-content: center;
+    text-align:center;
+    color: aliceblue;
+    font-size:25px;
+}
+
+.kai h3{
+    background-color: rgb(40, 154, 40);
+    padding:10px;
+    border-radius:10px;
+    display: flex;
+}
+
+.T h1{
+    background-color: rgb(40, 154, 40) ;
+    padding:5px 100px 5px 100px;
+    border-radius:10px;
+    display:flex;
+}
+.link a{
+    background-color: rgb(40, 154, 40);
+    text-decoration:none;
+    padding:10px 20px 10px 20px;
+    border-radius:10px;
+    text-align:center;
+    font-size:25px;
+    color: aliceblue;
+    justify-content:center;
+}
+
+.link{
+    position: relative;
+    
+}
+
+.link::before{
+    content:url(https://media.discordapp.net/attachments/569178233375817741/1020984477637427320/click.png);
+    position: absolute; 
+    left: 410px;
+    top:65%;
+    animation: touch 1s infinite;
 }
 
 
