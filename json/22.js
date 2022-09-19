@@ -4,38 +4,38 @@ function click(){
 }
 
 function pon(){
-    const click = new Audio('../sound/碰.wav');
-    click.play();
+    const pon = new Audio('../sound/碰.wav');
+    pon.play();
 }
 
 function chi(){
-    const click = new Audio('../sound/吃.wav');
-    click.play();
+    const chi = new Audio('../sound/吃.wav');
+    chi.play();
 }
 
 function gun(){
-    const click = new Audio('../sound/槓.wav');
-    click.play();
+    const gun = new Audio('../sound/槓.wav');
+    gun.play();
 }
 
 function pe(){
-    const click = new Audio('../sound/拔北.wav');
-    click.play();
+    const pe = new Audio('../sound/拔北.wav');
+    pe.play();
 }
 
 function lige(){
-    const click = new Audio('../sound/立直.wav');
-    click.play();
+    const lige = new Audio('../sound/立直.wav');
+    lige.play();
 }
 
 function lon(){
-    const click = new Audio('../sound/和.wav');
-    click.play();
+    const lon = new Audio('../sound/和.wav');
+    lon.play();
 }
 
 function tsumo(){
-    const click = new Audio('../sound/自摸.wav');
-    click.play();
+    const tsumo = new Audio('../sound/自摸.wav');
+    tsumo.play();
 }
 
 
