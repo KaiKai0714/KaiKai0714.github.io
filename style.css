@@ -21,14 +21,14 @@
     transition:0.2s;
 }
 
-.gamelist{
+.gamelist,.logo{
     display:flex;
     flex-wrap: wrap;
     flex-direction:column;
     align-content: center;
     text-align:center;
     color: aliceblue;
-    position: relative;
+    
 }
 
 body{
