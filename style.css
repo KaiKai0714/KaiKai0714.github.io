@@ -15,7 +15,6 @@
     transform: scale(1.1);
     transition:0.5s;
 }
-
 .gamelist [src]:active{
     transform: scale(0.8);
     transition:0.2s;
@@ -103,4 +102,11 @@ body{
     animation: touch 1s infinite;
 }
 
-
+.mjbtn:hover{
+    transform: scale(1.1);
+    transition:0.5s;
+}
+.mjbtn:active{
+    transform: scale(0.8);
+    transition:0.2s;
+}
