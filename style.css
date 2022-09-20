@@ -75,7 +75,7 @@ body{
 
 .T h1{
     background-color: rgb(40, 154, 40) ;
-    padding:5px 100px 5px 100px;
+    padding:5px 80px 5px 80px;
     border-radius:10px;
     display:flex;
 }
