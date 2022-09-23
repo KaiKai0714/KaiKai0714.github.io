@@ -33,8 +33,9 @@
 body{
     background-image:url(http://castle.womany.net/images/articles/21882/womany_wen_zhang_1200x630_cover_photo__te_se_tu_mo_ban_2019_11_12T135105_978_1573538026-26860-0055-4115.png);
     background-repeat: no-repeat;
-    background-size: 2000px 1000px;
+    background-size:cover;
     background-attachment:fixed;
+    background-position: center;
 }
 
 [href^="https"],[href^=".."],.gamelist p{
