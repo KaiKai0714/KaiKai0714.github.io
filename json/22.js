@@ -91,8 +91,8 @@ play.addEventListener("click", function play(){
             else if (t == 4) {
                 if (雀c["flower"] == 0) {
                     if ((雀c["nb"] == 萬c["nb"] && 雀c["wtt"] == "萬") || (雀c["nb"] == 筒c["nb"] && 雀c["wtt"] == "筒") || (雀c["nb"] == 條c["nb"] && 雀c["wtt"] == "條")){
-                        if (雀c["nb"] == 9){var 雀 = [`${雀c["nb"]-1}${雀c["wtt"]}`,`${雀c["nb"]-1}${雀c["wtt"]}`];console.log("!!!")}
-                        else {var 雀 = [`${雀c["nb"]+1}${雀c["wtt"]}`,`${雀c["nb"]+1}${雀c["wtt"]}`];console.log("!!!")}                    }
+                        if (雀c["nb"] == 9){var 雀 = [`${雀c["nb"]-1}${雀c["wtt"]}`,`${雀c["nb"]-1}${雀c["wtt"]}`]}
+                        else {var 雀 = [`${雀c["nb"]+1}${雀c["wtt"]}`,`${雀c["nb"]+1}${雀c["wtt"]}`]}                    }
                     else {var 雀 = [`${雀c["nb"]}${雀c["wtt"]}`,`${雀c["nb"]}${雀c["wtt"]}`]}
                 }
                 else{
