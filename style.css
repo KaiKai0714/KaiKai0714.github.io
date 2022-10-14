@@ -4,7 +4,7 @@
     100% {scale:1;}
 }
 
-.校慶 *{
+.校慶 *,.game{
     display:flex;
     width:auto;
     justify-content: center;
