@@ -1,10 +1,18 @@
 
 
+
+
+@keyframes touch {
+    0% {scale:1;}
+    50% {scale:0.7;}
+    100% {scale:1;}
+}
+
 .校慶 *,.game{
     display:flex;
     width:auto;
     justify-content: center;
-    color: aliceblue;
+    color: rgb(44, 212, 190);
 }
 
 .gamelist [src]:hover,.mjbtn:hover{
@@ -22,12 +30,12 @@
     flex-direction:column;
     align-content: center;
     text-align:center;
-    color: aliceblue;
+    color: rgb(0, 162, 255);
     
 }
 
 body{
-    background-image:url(https://assets.ppy.sh/contests/135/entries/Tense%20Rat.jpg);
+    background-image:url(https://images7.alphacoders.com/691/691235.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:fixed;
@@ -39,7 +47,7 @@ body{
     text-decoration:none;
     padding:5px;
     border-radius:10px;
-    color: aliceblue;
+    color: rgb(0, 162, 255);
     text-align:center;
     justify-content: center;
 }
@@ -58,25 +66,34 @@ body{
     flex-direction:column;
     align-content: center;
     text-align:center;
-    color: aliceblue;
-    font-size:25px;
+    color: rgb(82, 30, 224);
+    font-size:30px;
+}
+
+.terry{
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-content: center;
+    text-align:center;
+    color: rgb(91, 9, 184);
+    font-size:30px;
 }
 
 .kai1 h3{
-    background-color: rgb(230, 77, 146);
+    background-color: rgb(0, 153, 255);
     padding:10px;
     border-radius:10px;
     text-align: center;
 }
 
 .T h1{
-    background-color: rgb(40, 154, 40) ;
+    background-color: rgb(0, 153, 255) ;
     padding:5px 80px 5px 80px;
     border-radius:10px;
     display:flex;
 }
 .link a{
-    background-color: rgb(185, 220, 11);
+    background-color: rgb(82, 30, 224);
     text-decoration:none;
     padding:10px 20px 10px 20px;
     border-radius:10px;
@@ -91,52 +108,10 @@ body{
     
 }
 
-
-.circle{
-    position: absolute;
-    
-    
-}
-
-.circle-animation{
-    animation-name: touch;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-}
-
-.colorcircle{
-    animation: color infinite ;
-    position: absolute;
-    
-}
-
-.colorcircle-animation{
-    animation-name: color;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-}
-
-.osu1{
-    display: flex;
-    justify-content: center;
-}
-.osu2 {
-    display: flex;
-    justify-content: center;
-    width: 500px;
-    height: 300px;
-    background-color: black;
-    position: relative;
-}
-
-@keyframes touch {
-    0%{scale: 1; opacity: 100%;}
-    61%{scale: 1; opacity: 100%;}
-    100%{scale: 1.5; opacity: 0%;}
-}
-@keyframes color{
-    0%{scale: 2; opacity: 100%;}
-    57%{scale: 0.8;opacity: 100%;}
-    58%{scale: 0.8; opacity: 0%;}
-    100%{scale: 0.8; opacity: 0%;}
+.link::before{
+    content:url(https://media.discordapp.net/attachments/569178233375817741/1020984477637427320/click.png);
+    position: absolute; 
+    left: 410px;
+    top:65%;
+    animation: touch 1s infinite;
 }
