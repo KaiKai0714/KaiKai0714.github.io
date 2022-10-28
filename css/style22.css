@@ -1,0 +1,106 @@
+@keyframes touch {
+    0% {scale:1;}
+    50% {scale:0.7;}
+    100% {scale:1;}
+}
+
+.校慶 *,.game{
+    display:flex;
+    width:auto;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.gamelist [src]:hover,.mjbtn:hover{
+    transform: scale(1.1);
+    transition:0.5s;
+}
+.gamelist [src]:active,.mjbtn:active{
+    transform: scale(0.8);
+    transition:0.2s;
+}
+
+.gamelist,.logo{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-content: center;
+    text-align:center;
+    color: aliceblue;
+    
+}
+
+body{
+    background-image:url(../pic/cat.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+}
+
+[href^="https"],[href^=".."],.gamelist p{
+    background-color: rgb(40, 154, 40);
+    text-decoration:none;
+    padding:5px;
+    border-radius:10px;
+    color: aliceblue;
+    text-align:center;
+    justify-content: center;
+}
+[href^="https"]:hover,[href^=".."]:hover{
+    background-color: green;
+}
+
+.back{
+    display:flex;
+    justify-content:center;
+}
+
+.kai1,.T{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-content: center;
+    text-align:center;
+    color: aliceblue;
+    font-size:25px;
+}
+
+.kai1 h3{
+    background-color: rgb(40, 154, 40);
+    padding:10px;
+    border-radius:10px;
+    text-align: center;
+}
+
+.T h1{
+    background-color: rgb(40, 154, 40) ;
+    padding:5px 80px 5px 80px;
+    border-radius:10px;
+    display:flex;
+}
+.link a{
+    background-color: rgb(40, 154, 40);
+    text-decoration:none;
+    padding:10px 20px 10px 20px;
+    border-radius:10px;
+    text-align:center;
+    font-size:25px;
+    color: aliceblue;
+    justify-content:center;
+}
+
+.link{
+    position: relative;
+    
+}
+
+.link::before{
+    content:url(https://i.imgur.com/Zl9AWc5.png);
+    position: absolute; 
+    left: 410px;
+    top:65%;
+    animation: touch 1s infinite;
+}
+
+

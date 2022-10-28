@@ -1,0 +1,140 @@
+
+
+.校慶 *,.game{
+    display:flex;
+    width:auto;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.gamelist [src]:hover,.mjbtn:hover{
+    transform: scale(1.1);
+    transition:0.5s;
+}
+.gamelist [src]:active,.mjbtn:active{
+    transform: scale(0.8);
+    transition:0.2s;
+}
+
+.gamelist,.logo{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-content: center;
+    text-align:center;
+    color: aliceblue;
+    
+}
+
+body{
+    background-image:url(https://assets.ppy.sh/contests/135/entries/Tense%20Rat.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+}
+
+[href^="https"],[href^=".."],.gamelist p{
+    background-color: rgb(40, 154, 40);
+    text-decoration:none;
+    padding:5px;
+    border-radius:10px;
+    color: aliceblue;
+    text-align:center;
+    justify-content: center;
+}
+[href^="https"]:hover,[href^=".."]:hover{
+    background-color: green;
+}
+
+.back{
+    display:flex;
+    justify-content:center;
+}
+
+.kai1,.T{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-content: center;
+    text-align:center;
+    color: aliceblue;
+    font-size:25px;
+}
+
+.kai1 h3{
+    background-color: rgb(230, 77, 146);
+    padding:10px;
+    border-radius:10px;
+    text-align: center;
+}
+
+.T h1{
+    background-color: rgb(40, 154, 40) ;
+    padding:5px 80px 5px 80px;
+    border-radius:10px;
+    display:flex;
+}
+.link a{
+    background-color: rgb(185, 220, 11);
+    text-decoration:none;
+    padding:10px 20px 10px 20px;
+    border-radius:10px;
+    text-align:center;
+    font-size:25px;
+    color: aliceblue;
+    justify-content:center;
+}
+
+.link{
+    position: relative;
+    
+}
+
+
+.circle{
+    position: absolute;
+    top: 123px;
+    left: 233px;
+    
+}
+
+.circle-animation{
+    animation-name: touch;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.colorcircle{
+    animation: color infinite ;
+    position: absolute;
+    top: 110px;
+    left: 220px;
+}
+
+.colorcircle-animation{
+    animation-name: color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+.osu{
+    padding: 200px;
+    background-color: black;
+    margin-left: 650px;
+    margin-right: 650px;
+    position: relative;
+    
+}
+@keyframes touch {
+    0%{scale: 1; opacity: 100%;}
+    61%{scale: 1; opacity: 100%;}
+    100%{scale: 1.5; opacity: 0%;}
+}
+@keyframes color{
+    0%{scale: 2; opacity: 100%;}
+    57%{scale: 0.8;opacity: 100%;}
+    58%{scale: 0.8; opacity: 0%;}
+    100%{scale: 0.8; opacity: 0%;}
+}
