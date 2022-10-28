@@ -96,7 +96,7 @@ body{
 }
 
 .link::before{
-    content:url(https://i.imgur.com/Zl9AWc5.png);
+    content:url(../pic/22/click.png);
     position: absolute; 
     left: 410px;
     top:65%;
